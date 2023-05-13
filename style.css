@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hiddden;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container h1{
+    text-shadow: 10px;
+    color: black;
+    padding-top: 40px;
+    font-size: 65px;
+    font-weight: 100;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+.card-image{
+    filter: grayscale(1);
+    background-color: tomato;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    width: 350px;
+    border-radius: 12px;
+    
+}
+.img_cards1{
+    background-image: url(./images/luffy.jpg);
+    text-align: center;
+    height: 450px;
+    background-size: cover;
+}
+
+.img_cards2{
+    height: 450px;
+    background-image: url(./images/zoro.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards3{
+    height: 450px;
+    background-image: url(./images/sanji.jpg);
+    text-align: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.img_cards4{
+    height: 450px;
+    background-image: url(./images/brook.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards5{
+    height: 450px;
+    background-image: url(./images/chopper.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards6{
+    height: 450px;
+    background-image: url(./images/jinbie.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards7{
+    height: 450px;
+    background-image: url(./images/ace.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards8{
+    height: 450px;
+    background-image: url(./images/kid.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards9{
+    height: 450px;
+    background-image: url(./images/law.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards10{
+    height: 450px;
+    background-image: url(./images/shanks.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.img_cards11{
+    height: 450px;
+    background-image: url(./images/gold\ roger.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.card-image:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    transform: scale();
+    filter: grayscale(0);
+    filter: drop-shadow(0 0 10px #333);
+}
+p:hover{
+    opacity: 0;
+}
+
